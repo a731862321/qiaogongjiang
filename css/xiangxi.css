@@ -1,0 +1,272 @@
+/*
+* @Author: 73186
+* @Date:   2018-01-07 22:54:52
+* @Last Modified by:   73186
+* @Last Modified time: 2018-01-11 08:46:03
+*/
+@import url('base.css');
+*{
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.toubu{
+	width: 100%;
+	height: 1.09rem;
+	background: #fafafa;
+	overflow: hidden;
+	border-bottom: 0.02rem solid #e3e3e3;
+}
+.toubujiantou{
+	display: block;
+	width: 0.46rem;
+	height: 0.64rem;
+	/* background: yellow; */
+	float: left;
+	margin-left: 0.42rem;
+	margin-top: 0.18rem;
+	font-size: 0.53rem;
+	color: #bcbcbc;
+	text-align: center;
+}
+.canchutop{
+	width: 1.9rem;
+	height: 0.71rem;
+	/* background: green; */
+	margin: 0 auto;
+	margin-top: 0.22rem;‘
+	font-size: 0.53rem;
+	color: #4c4c4c;
+	text-align: center;
+}
+.sousuoif{
+	display: block;
+	float: right;
+	width: 0.61rem;
+	height: 0.64rem;
+	/* background: greenyellow; */
+	margin-bottom: 0.23rem;
+	margin-right: 0.38rem;
+	margin-top: 0.28rem;
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 524996 */
+  src: url('http://at.alicdn.com/t/font_524996_mi9g8wo1tv7h9f6r.eot');
+  src: url('http://at.alicdn.com/t/font_524996_mi9g8wo1tv7h9f6r.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_524996_mi9g8wo1tv7h9f6r.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_524996_mi9g8wo1tv7h9f6r.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_524996_mi9g8wo1tv7h9f6r.svg#iconfont') format('svg');
+}
+.sousuoif i{
+	display: block;
+	width: 100%;
+	height: 100%;
+	font-family: 'iconfont';
+	font-style: normal;
+	color: #848484;
+	text-align: center;
+	line-height: 0.61rem;
+	font-size: 0.53rem;
+}
+.bannertukuang{
+	display: block;
+	width: 100%;
+	height: 10.8rem;
+	background: yellow;
+}
+.bannertukuang img{
+	width: 100%;
+	height: 100%;
+}
+.cwcxxk{
+	width: 100%;
+	height: 3.17rem;
+/* 	background: yellow; */
+	overflow: hidden;
+	float: left;
+}
+.cwcjsk{
+	width: 8.47rem;
+	height: 2.5rem;
+/* 	background: blue; */
+	margin-top: 0.1rem;
+	border-right: 0.02rem solid #e3e3e3;
+	overflow: hidden;
+}
+.cwcwzk{
+	width: 4.82rem;
+	height: 0.62rem;
+/* 	background: pink; */
+	margin-left: 0.42rem;
+	margin-top: 0.6rem;
+	font-size: 0.5rem;
+	color: #000000;
+	margin-bottom: 0.05rem;
+
+}
+.cwcwz{
+	width: 4.32rem;
+	height: 0.57rem;
+/* 	background: red; */
+	margin-left: 0.42rem;
+	font-size: 0.45rem;
+	color: #b4b4b4;
+	margin-bottom: 0.15rem;
+}
+.cwxjiage{
+	width: 1.9rem;
+	height: 0.51rem;
+/* 	background: pink; */
+	margin-left: 0.42rem;
+	font-size: 0.42rem;
+	color: #b13137;
+}
+.yhzpj{
+	display: block;
+	width: 1.74rem;
+	height: 1.31rem;
+/* 	background: blue; */
+	float: right;
+	margin-right: 0.27rem;
+	margin-top: 0.6rem;
+}
+.pjsz{
+	width: 0.95rem;
+	height: 0.61rem;
+/* 	background: yellow; */
+	margin-top: 0.02rem;
+	margin-left: 0.35rem;
+	font-size: 0.45rem;
+	color: #ba484c;
+}
+.pjsz p{
+	font-size: 0.45rem;
+	color: #ba484c;
+    text-align: center;
+}
+.yhpj{
+	width: 1.74rem;
+	height: 0.41rem;
+	/* background: pink; */
+	margin-top: 0.15rem;
+}
+.yhpj p{
+	font-size: 0.35rem;
+	color: #b54d4d;
+	text-align: center;
+}
+.zjx{
+	width: 100%;
+	height: 0.3rem;
+	background: #f4f4f4;
+	float: left;
+}
+.slxz{
+	display: block;
+	width: 100%;
+	height: 1.51rem;
+	/* background: red; */
+	float: left;
+	overflow: hidden;
+	border-bottom: 0.02rem solid #a7a7a7;
+}
+.slxzk{
+	width: 9.08rem;
+	height: 0.63rem;
+	/* background: yellow; */
+	margin-top: 0.45rem;
+	margin-left: 0.42rem;
+	float: left;
+}
+.slxzk p{
+	font-size: 0.38rem;
+	color: #838383;
+	line-height: 0.63rem;
+}
+.jiantk{
+	width: 0.68rem;
+	height: 0.63rem;
+	/* background: blue; */
+	float: right;
+	margin-top: 0.45rem;
+	margin-right: 0.27rem;
+	font-size: 0.38rem;
+	color: #a7a7a7;
+	line-height: 0.63rem;
+
+}
+.dbdk{
+	width: 100%;
+	height: 1.59rem;
+	background: #fafafa;
+	border-top: 0.02rem solid #dadada;
+	float: left;
+	position: fixed;
+	z-index: 999;
+	bottom: 0;
+	left: 0;
+}
+.erji{
+	display: block;
+	width: 1.33rem;
+	height: 1.59rem;
+	/* background: yellow; */
+	border-right: 0.02rem solid #dadada;
+	overflow: hidden;
+	float: left;
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 524996 */
+  src: url('http://at.alicdn.com/t/font_524996_246h4beoriicnmi.eot');
+  src: url('http://at.alicdn.com/t/font_524996_246h4beoriicnmi.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_524996_246h4beoriicnmi.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_524996_246h4beoriicnmi.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_524996_246h4beoriicnmi.svg#iconfont') format('svg');
+}
+.erji i{
+	display: block;
+	font-family: 'iconfont';
+	font-style: normal;
+	font-size: 0.58rem;
+	margin-top: 0.5rem;
+	margin-left: 0.35rem;
+	color: #adadad;
+}
+
+.ljgm{
+	display: block;
+	width: 3.37rem;
+	height: 1.58rem;
+	background: #fafafa;
+	float: left;
+	
+}
+.ljgm p{
+	font-size: 0.44rem;
+	color: #3e3e3e;
+	text-align: center;
+	line-height: 1.58rem;
+}
+.ljgm1{
+	display: block;
+	width: 3.37rem;
+	height: 1.58rem;
+	background: #b4272d;
+	float: left;
+	font-size: 0.44rem;
+}
+.ljgm1 p{
+	font-size: 0.44rem;
+	color: #fff;
+	text-align: center;
+	line-height: 1.58rem;
+}
+.xiangxituk{
+	width: 100%;
+	height: 38.21rem;
+	background: yellowgreen;
+	float: left;
+	margin-bottom: 1.59rem;
+}
+.xiangxituk img{
+	width: 100%;
+	height: 100%;
+}
